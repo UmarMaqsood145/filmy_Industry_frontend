@@ -1,0 +1,70 @@
+#errorPage {
+  width: 100%;
+}
+
+#errorPage .pageContent {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#errorPage h1 {
+  font-size: 10rem;
+  color: var(--bg-primary);
+  letter-spacing: 5px;
+}
+
+#errorPage h4 {
+  font-size: 2rem;
+  color: var(--bg-secondary);
+  letter-spacing: 2px;
+}
+
+#errorPage p {
+  margin-top: 10px;
+  font-size: 20px;
+  color: var(--bg-secondary);
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+#errorPage a {
+  text-decoration: none;
+  background: var(--bg-primary);
+  color: white;
+  border: 1px solid var(--bg-primary);
+  padding: 5px 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+#errorPage a:hover {
+  background: none;
+  color: var(--bg-primary);
+}
+
+@media screen and (max-width: 600px) {
+  #errorPage {
+    padding: 0px 10px 20px 10px;
+  }
+  #errorPage h1 {
+    font-size: 5rem;
+  }
+  #errorPage h4 {
+    font-size: 1rem;
+  }
+  #errorPage p {
+    font-size: 15px;
+    text-align: center;
+    padding: 0px 20px;
+  }
+
+  #errorPage a {
+    font-size: 15px;
+  }
+}

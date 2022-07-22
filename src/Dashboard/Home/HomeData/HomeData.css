@@ -1,0 +1,118 @@
+#homeData {
+  width: 95%;
+  height: auto;
+  padding: 10px 30px;
+}
+#homeData .homeNav {
+  display: flex;
+  justify-content: space-between;
+}
+
+#homeData .homeNav input {
+  width: 70%;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px 5px;
+  background: none;
+  border: 1px solid var(--bg-primary);
+}
+#homeData .homeNav input:focus {
+  box-shadow: 0px 0px 5px var(--bg-primary);
+}
+#homeData .homeNav button {
+  outline: none;
+  border: 1px solid var(--bg-primary);
+  border-radius: 5px;
+  background-color: var(--bg-primary);
+  color: white;
+  padding: 0px 30px;
+  margin-left: 5px;
+  transition: 0.5s;
+}
+#homeData .homeNav button:hover {
+  background: none;
+  color: var(--bg-primary);
+}
+#homeData table {
+  margin-top: 20px;
+}
+#homeData table th {
+  background-color: var(--bg-primary);
+  padding: 15px 0px 15px 20px;
+  color: white;
+  box-sizing: border-box;
+}
+
+#homeData table td {
+  padding: 10px 20px 10px 20px;
+  background: rgb(180, 228, 239);
+  border-bottom: 1px solid black;
+}
+
+#homeData table .deleteBtn {
+  background: red;
+  border: 1px solid red;
+  outline: none;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 5px;
+  transition: 0.5s;
+  margin: 5px;
+  font-size: 15px;
+}
+
+#homeData table .deleteBtn:hover {
+  background: none;
+  color: red;
+}
+
+#homeData table .updateBtn {
+  background: green;
+  border: 1px solid green;
+  outline: none;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 5px;
+  margin: 5px;
+  transition: 0.5s;
+  font-size: 13px;
+}
+
+#homeData table .updateBtn:hover {
+  background: none;
+  color: green;
+}
+
+#homeData .cancelBtn button {
+  outline: none;
+  border: 1px solid var(--bg-primary);
+  border-radius: 5px;
+  background-color: var(--bg-primary);
+  color: white;
+  padding: 5px 100px;
+  margin-top: 30px;
+  transition: 0.5s;
+}
+#homeData .cancelBtn button:hover {
+  background-color: white;
+  color: var(--bg-primary);
+}
+
+@media screen and (max-width: 425px) {
+  #homeData {
+    width: 90%;
+    height: auto;
+    padding: 10px 5px;
+  }
+  #homeData .homeNav input {
+    padding: 3px;
+  }
+  #homeData .homeNav button {
+    font-size: 11px;
+    padding: 0px 10px;
+  }
+  #homeData table td {
+    font-size: 12px;
+    padding: 5px 5px;
+  }
+}

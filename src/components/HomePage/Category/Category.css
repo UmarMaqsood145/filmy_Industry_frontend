@@ -1,0 +1,36 @@
+#category {
+  width: 100%;
+  height: auto;
+  padding: 10px 0px;
+}
+
+.accordion-button {
+  background: var(--bg-primary) !important;
+  color: white;
+  box-shadow: none !important;
+}
+
+.accordion-button:hover {
+  color: white;
+}
+
+.accordion-button:not(.collapsed) {
+  color: white;
+}
+
+.accordion-body {
+  background: rgb(180, 228, 239);
+}
+
+#category .categoryItems p {
+  padding: 5px 5px;
+  border-radius: 5px;
+  margin-top: 2px;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+#category .categoryItems p:hover {
+  background: var(--bg-primary);
+  color: white;
+}

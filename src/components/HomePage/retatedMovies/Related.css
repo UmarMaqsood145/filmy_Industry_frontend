@@ -1,0 +1,149 @@
+#related {
+  width: 100%;
+  height: auto;
+}
+
+.notFound {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#related .homebar {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: end;
+}
+#related .homebar input {
+  outline: none;
+  border: 1px solid var(--bg-primary);
+  border-radius: 5px;
+  width: 30%;
+  padding: 7px 5px 7px 5px;
+  caret-color: var(--bg-primary);
+  color: var(--bg-primary);
+}
+#related .homebar input:focus {
+  box-shadow: 0px 0px 5px var(--bg-primary);
+}
+#related h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: var(--bg-primary);
+}
+#related .moviesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#related .movies {
+  width: 49%;
+  height: auto;
+  display: flex;
+  margin-top: 10px;
+  background: white;
+  padding: 5px;
+  border-radius: 3px;
+  box-shadow: 0 2px 10px 0 rgb(99 99 99 / 50%);
+}
+#related .movies img {
+  width: 180px;
+  height: 150px;
+  background-size: 100% 100%;
+  margin-right: 5px;
+}
+#related .movies a {
+  text-decoration: none;
+  outline: none;
+  border: 1px solid var(--bg-primary);
+  background: var(--bg-primary);
+  color: white;
+  padding: 4px 40px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+#related .cat {
+  width: 250px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  background-color: rgb(180, 228, 239);
+  color: rgb(73, 73, 73);
+  padding: 2px 2px 2px 5px;
+  border-radius: 5px;
+}
+#related .movies a:hover {
+  background: none;
+  color: var(--bg-primary);
+}
+#related .cancelBtn {
+  display: flex;
+  justify-content: center;
+}
+#related .cancelBtn button {
+  outline: none;
+  border: 1px solid var(--bg-primary);
+  border-radius: 5px;
+  background-color: var(--bg-primary);
+  color: white;
+  padding: 5px 100px;
+  margin-top: 30px;
+  transition: 0.5s;
+}
+#related .cancelBtn button:hover {
+  background-color: white;
+  color: var(--bg-primary);
+}
+@media screen and (max-width: 1024px) {
+  #related .movies {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  #related .homebar input {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  #related .moviesContainer h5 {
+    font-size: 16px;
+  }
+  #related .cat {
+    width: 200px;
+    font-size: 13px;
+  }
+  #related .movies a {
+    padding: 3px 30px;
+  }
+  #related .movies img {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media screen and (max-width: 375px) {
+  #related .moviesContainer h5 {
+    font-size: 11px;
+  }
+  #related .cat {
+    width: 155px;
+    font-size: 10px;
+  }
+  #related .movies a {
+    padding: 2px 30px;
+  }
+  #related .movies img {
+    width: 120px;
+    height: 110px;
+  }
+}
+@media screen and (max-width: 320px) {
+  #related .moviesContainer h5 {
+    font-size: 10px;
+  }
+  #related .movies img {
+    width: 100px;
+    height: 100px;
+  }
+}

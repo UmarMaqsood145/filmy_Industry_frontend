@@ -1,0 +1,20 @@
+#privacyPolicy {
+  width: 100%;
+  height: auto;
+  padding: 20px 50px;
+}
+
+#privacyPolicy a {
+  color: var(--bg-primary);
+  text-decoration: none;
+}
+
+#privacyPolicy a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  #privacyPolicy {
+    padding: 20px 10px;
+  }
+}

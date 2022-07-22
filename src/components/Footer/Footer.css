@@ -1,0 +1,170 @@
+footer {
+  background: black;
+  padding: 30px 50px 20px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer .footerBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .box {
+  width: 25%;
+}
+
+footer .footerLogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .footerItems {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 30px;
+}
+
+footer .footerItems a {
+  color: white;
+  text-decoration: none;
+  margin-top: 3px;
+  transition: 0.3s;
+}
+
+footer .footerItems a:hover {
+  color: var(--bg-primary);
+  transform: scale(1.01);
+}
+
+footer .footerItems .aboutContent {
+  font-size: 14px;
+  color: white;
+}
+
+footer .footerItems .aboutContent span {
+  color: var(--bg-primary);
+}
+
+footer .footerItems .aboutContent a {
+  color: var(--bg-primary);
+}
+
+footer .footerItems .aboutContent a:hover {
+  text-decoration: underline;
+}
+
+footer h4 {
+  color: white;
+}
+
+footer .inputBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer .inputBox input {
+  outline: none;
+  border: 1px solid var(--bg-primary);
+  padding: 5px 5px 5px 5px;
+  background: none;
+  border-radius: 5px;
+  caret-color: var(--bg-primary);
+  color: var(--bg-primary);
+}
+
+footer .inputBox input:focus {
+  box-shadow: 0px 0px 5px var(--bg-primary);
+}
+
+footer .inputBox button {
+  background: var(--bg-primary);
+  border: 1px solid var(--bg-primary);
+  margin-top: 10px;
+  padding: 5px 0px;
+  border-radius: 5px;
+  color: white;
+  transition: 0.3s;
+}
+
+footer .inputBox button:hover {
+  background: none;
+  color: var(--bg-primary);
+  transform: scale(1.01);
+}
+
+footer img {
+  width: 120px;
+  height: 80px;
+}
+
+footer h1 {
+  color: var(--bg-primary);
+  font-weight: bold;
+}
+
+footer .line {
+  background: gray;
+  width: 100%;
+  height: 1px;
+  margin-top: 30px;
+}
+
+footer .icon-bg {
+  margin: 0px 10px;
+}
+
+footer .icons {
+  color: white;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+footer .icons:hover {
+  color: var(--bg-primary);
+  transform: scale(1.7);
+}
+
+footer p {
+  color: white;
+}
+
+footer p a {
+  text-decoration: none;
+  color: var(--bg-primary);
+}
+
+footer p a:hover {
+  color: var(--bg-primary);
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1200px) {
+  footer {
+    padding: 30px 20px 20px 20px;
+  }
+  footer .footerBox {
+    flex-wrap: wrap;
+  }
+
+  footer .footerItems {
+    padding: 0px 0px;
+  }
+
+  footer .box {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    padding: 30px 10px 20px 10px;
+  }
+  footer .box {
+    width: 100%;
+    margin-top: 15px;
+  }
+}

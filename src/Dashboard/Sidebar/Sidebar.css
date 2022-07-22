@@ -1,0 +1,28 @@
+#sideBar {
+  width: 5%;
+  height: 100vh;
+  background-color: var(--bg-primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#sideBar .icons {
+  font-size: 30px;
+  margin-top: 20px;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#sideBar .icons:hover {
+  color: black;
+}
+@media screen and (max-width: 425px) {
+  #sideBar {
+    width: 10%;
+  }
+  #sideBar .icons {
+    font-size: 20px;
+  }
+}

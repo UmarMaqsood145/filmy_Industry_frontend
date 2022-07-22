@@ -1,0 +1,49 @@
+.modalBtn {
+  border: none;
+  outline: none;
+  color: white;
+  background: var(--bg-primary);
+  border: 1px solid var(--bg-primary);
+  padding: 5px 20px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.modalBtn:hover {
+  background: none;
+  color: var(--bg-primary);
+}
+
+.inputField {
+  display: flex;
+}
+
+.inputField input {
+  width: 378px;
+}
+
+.inputField .inputForMargin {
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .inputField {
+    flex-direction: column;
+  }
+  .inputField select {
+    width: 100%;
+  }
+  .inputField input {
+    width: 100%;
+  }
+  .inputField .inputForMargin {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #accountSetting .settingBox .box-2 {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+}

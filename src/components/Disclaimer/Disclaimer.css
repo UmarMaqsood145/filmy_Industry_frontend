@@ -1,0 +1,27 @@
+#disclaimer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 50px;
+}
+
+#disclaimer h1 {
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+
+#disclaimer h4 {
+  font-size: 18px;
+  text-align: justify;
+  letter-spacing: 0.5px;
+  line-height: normal;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 768px) {
+  #disclaimer {
+    padding: 20px 10px;
+  }
+}
